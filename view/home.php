@@ -4,12 +4,12 @@ include  dirname(__DIR__) . '../app/controller/Controller.php';
 
 $o = new Controller();
 
-$o->getAllFournisseur();
-echo '<pre>';
-foreach ($o->allFournisseur as $pro) {
-    var_dump( $pro->getNom());
-}
-echo '</pre>';
+// $o->getAllFournisseur();
+// echo '<pre>';
+// foreach ($o->allFournisseur as $pro) {
+//     var_dump( $pro->getNom());
+// }
+// echo '</pre>';
 
 // ?>
 
